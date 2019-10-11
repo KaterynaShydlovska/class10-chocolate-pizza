@@ -1,3 +1,8 @@
+header {
+  margin-top: 20px;
+}
+
+
 body{
   width: 901px;
   margin: 0 auto;
@@ -10,16 +15,38 @@ body{
 #social {
   position: relative;
   float: right;
+  margin-top: 10px;
+}
+
+#social-left {
+  margin-right: 7px;
 }
 
 #shoppingList {
   background-image: url(list-bg.png);
   height: 300px;
+  width: 100%;
 }
 
 #shoppingList ul {
   display: inline-block;
-  width: 50%;
+  width: 40%;
+  position: relative;
+  padding-top: 35px;
+  padding-left: 60px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  color:rgb(105, 105, 105);
+}
+
+#leftList {
+  float: left;
+  
+}
+
+#rigthlist {
+  float: right;
 }
 
 h2 {
@@ -32,4 +59,40 @@ h2 {
   font-size: 1em;
   letter-spacing: -0.01em;
   word-spacing: -0.2em;
+}
+
+#blog-post {
+  color: grey;
+  font-size: .7em;
+}
+
+#blog-post-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+
+}
+/* THANKS https://stackoverflow.com/questions/51495826/striped-divider-css */
+.divider {
+  height:15px;
+  width: 100%;
+  background:repeating-linear-gradient(45deg,#fff 2px,#fff 4px, rgb(209, 205, 205) 4px,rgb(209, 205, 205) 5.5px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+article p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-indent: 20px;
+  font-size: 1.2em;
+  color: rgb(105, 105, 105); 
+  line-height: 1.2em;
+}
+
+input {
+  margin-right: 1.2em;
+  color: grey;
 }
