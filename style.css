@@ -1,0 +1,8 @@
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+ul{
+  background-image: url(list-bg.png);
+  height: 300px;
+}
