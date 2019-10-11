@@ -1,8 +1,35 @@
 body{
-  width: 960px;
+  width: 901px;
   margin: 0 auto;
 }
-ul{
+
+#logo img, div {
+  display: inline-block;
+}
+
+#social {
+  position: relative;
+  float: right;
+}
+
+#shoppingList {
   background-image: url(list-bg.png);
   height: 300px;
+}
+
+#shoppingList ul {
+  display: inline-block;
+  width: 50%;
+}
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+}
+
+#logo p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1em;
+  letter-spacing: -0.01em;
+  word-spacing: -0.2em;
 }
